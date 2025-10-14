@@ -1,6 +1,6 @@
 {
   "name": "@lottiefiles/dotlottie-react-native",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "dotlottie react native",
   "source": "./src/index.ts",
   "main": "./lib/commonjs/index.js",
@@ -124,9 +124,7 @@
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "preset": {
-          "name": "angular"
-        },
+        "preset": "conventionalcommits",
         "infile": "CHANGELOG.md"
       }
     }
