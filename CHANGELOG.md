@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0 (2025-10-14)
+
+* feat: add web platform support (#18) ([9ee2fbb](https://github.com/LottieFiles/dotlottie-react-native/commit/9ee2fbb)), closes [#18](https://github.com/LottieFiles/dotlottie-react-native/issues/18)
+
 ## 0.4.0 (2025-10-14)
 
 * chore: 🤖 fix release (#7) ([a6bd923](https://github.com/LottieFiles/dotlottie-react-native/commit/a6bd923)), closes [#7](https://github.com/LottieFiles/dotlottie-react-native/issues/7)
