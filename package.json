@@ -70,7 +70,7 @@
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native/eslint-config": "^0.73.1",
-    "@release-it/conventional-changelog": "^5.0.0",
+    "@release-it/conventional-changelog": "^10.0.1",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
@@ -83,7 +83,7 @@
     "react": "18.2.0",
     "react-native": "0.74.5",
     "react-native-builder-bob": "^0.29.0",
-    "release-it": "^15.0.0",
+    "release-it": "^19.0.5",
     "turbo": "^1.10.7",
     "typescript": "^5.2.2"
   },
@@ -111,6 +111,7 @@
     ]
   },
   "release-it": {
+    "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
     "git": {
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
@@ -123,7 +124,10 @@
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "preset": "angular"
+        "preset": {
+          "name": "angular"
+        },
+        "infile": "CHANGELOG.md"
       }
     }
   },
