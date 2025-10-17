@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.0 (2025-10-17)
+
+* feat: add Kotlin 2.0 Compose Compiler plugin support (#22) ([5eb51c0](https://github.com/LottieFiles/dotlottie-react-native/commit/5eb51c0)), closes [#22](https://github.com/LottieFiles/dotlottie-react-native/issues/22) [#15](https://github.com/LottieFiles/dotlottie-react-native/issues/15) [#15](https://github.com/LottieFiles/dotlottie-react-native/issues/15)
+* feat: add state machine support and improve reactive prop handling (#21) ([902665e](https://github.com/LottieFiles/dotlottie-react-native/commit/902665e)), closes [#21](https://github.com/LottieFiles/dotlottie-react-native/issues/21)
+
 ## 0.5.0 (2025-10-14)
 
 * feat: add web platform support (#18) ([9ee2fbb](https://github.com/LottieFiles/dotlottie-react-native/commit/9ee2fbb)), closes [#18](https://github.com/LottieFiles/dotlottie-react-native/issues/18)
