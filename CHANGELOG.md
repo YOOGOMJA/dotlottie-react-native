@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.6.1 (2025-10-21)</small>
+
+* fix: change event handlers to RCTDirectEventBlock(#24) (#25) ([a17226e](https://github.com/LottieFiles/dotlottie-react-native/commit/a17226e)), closes [#24](https://github.com/LottieFiles/dotlottie-react-native/issues/24) [#25](https://github.com/LottieFiles/dotlottie-react-native/issues/25) [#24](https://github.com/LottieFiles/dotlottie-react-native/issues/24)
+* fix(android): prevent IllegalStateException in cleanup on destroyed player (#23) ([3648963](https://github.com/LottieFiles/dotlottie-react-native/commit/3648963)), closes [#23](https://github.com/LottieFiles/dotlottie-react-native/issues/23)
+
 ## 0.6.0 (2025-10-17)
 
 * feat: add Kotlin 2.0 Compose Compiler plugin support (#22) ([5eb51c0](https://github.com/LottieFiles/dotlottie-react-native/commit/5eb51c0)), closes [#22](https://github.com/LottieFiles/dotlottie-react-native/issues/22) [#15](https://github.com/LottieFiles/dotlottie-react-native/issues/15) [#15](https://github.com/LottieFiles/dotlottie-react-native/issues/15)
