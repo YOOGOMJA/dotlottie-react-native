@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.0 (2025-10-22)
+
+* chore: remove unit tests step from release workflow (#27) ([3b64b6d](https://github.com/LottieFiles/dotlottie-react-native/commit/3b64b6d)), closes [#27](https://github.com/LottieFiles/dotlottie-react-native/issues/27)
+* feat: add new architecture support via Legacy Interop (#26) ([ab7506c](https://github.com/LottieFiles/dotlottie-react-native/commit/ab7506c)), closes [#26](https://github.com/LottieFiles/dotlottie-react-native/issues/26)
+
 ## <small>0.6.1 (2025-10-21)</small>
 
 * fix: change event handlers to RCTDirectEventBlock(#24) (#25) ([a17226e](https://github.com/LottieFiles/dotlottie-react-native/commit/a17226e)), closes [#24](https://github.com/LottieFiles/dotlottie-react-native/issues/24) [#25](https://github.com/LottieFiles/dotlottie-react-native/issues/25) [#24](https://github.com/LottieFiles/dotlottie-react-native/issues/24)
